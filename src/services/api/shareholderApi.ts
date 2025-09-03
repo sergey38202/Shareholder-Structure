@@ -4,12 +4,6 @@ import type { ShareholderData } from '@/types/shareholder';
 import mockData from '@/data/data.json';
 
 export class ShareholderApiService extends BaseApiService {
-  private readonly ENDPOINTS = {
-    LIST: '/shareholders',
-    BY_COMPANY: '/shareholders/company',
-    DETAILS: '/shareholders/details',
-  } as const;
-
   /**
    * Fetch shareholders by company code
    */
