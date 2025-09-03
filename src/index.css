@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&display=swap');
+
+@import 'antd/dist/reset.css';
+
+:root {
+  --color-white: #FFFFFF;
+  --color-dark-blue: #172339;
+  --color-light-gray: #f5f5f6;
+  --color-medium-gray: #e3e4e6;
+  --color-dark-gray: #454F61;
+  --color-blue: #69CDFF;
+  --color-red: #FF5555;
+  --color-yellow: #FFC94F;
+  --color-green: #37D881;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.heading-h4 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 600;
+  font-style: normal;
+  font-size: 22px;
+  line-height: 30px;
+  letter-spacing: 0%;
+  vertical-align: middle;
+}
+
+.p3-accent {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 12px;
+  line-height: 16px;
+  letter-spacing: 0%;
+}
+
+.p2-accent {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 600;
+  font-style: normal;
+  font-size: 14px;
+  line-height: 22px;
+  letter-spacing: 0.2%;
+}
+
+.p2-secondary {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 14px;
+  line-height: 20px;
+  letter-spacing: 0%;
+}
+
+.p1-secondary {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0%;
+}
+
+body {
+  font-family: 'Montserrat', sans-serif;
+}
+
+@media (max-width: 768px) {
+  .heading-h4 {
+    font-size: 20px;
+    line-height: 28px;
+  }
+  
+  .p1-secondary {
+    font-size: 15px;
+    line-height: 22px;
+  }
+  
+  .p2-secondary {
+    font-size: 13px;
+    line-height: 18px;
+  }
+  
+  .p2-accent {
+    font-size: 13px;
+    line-height: 20px;
+  }
+}
+
+@media (max-width: 480px) {
+  .heading-h4 {
+    font-size: 18px;
+    line-height: 26px;
+  }
+  
+  .p1-secondary {
+    font-size: 14px;
+    line-height: 20px;
+  }
+  
+  .p2-secondary {
+    font-size: 12px;
+    line-height: 16px;
+  }
+  
+  .p2-accent {
+    font-size: 12px;
+    line-height: 18px;
+  }
+}
+
